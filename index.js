@@ -6,10 +6,10 @@ const mysql = require("mysql2");
 const crypto = require("crypto");
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "enote_base",
+  host: "10.16.0.1",
+  user: "baseEnote",
+  password: "Enote2023Dip!",
+  database: "enote_desk",
 });
 
 app.use(function (req, res, next) {
